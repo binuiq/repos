@@ -1,0 +1,24 @@
+<div data-role="page" id="email_page">
+  <script type="text/javascript" src="email.js"></script>
+
+  <div data-role="header">
+    <h1>Login Your Email Account</h1>
+  </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true">
+      <li data-role="fieldcontain">
+        <fieldset data-role="controlgroup" data-type="horizontal">
+          <input type="text" name="user" id="user" />
+          <label for="service">@</label>
+          <select name="service" id="service"></select>
+        </fieldset>
+      </li>
+      <li data-role="fieldcontain">
+        <input type="password" name="pass" id="pass" />
+      </li>
+      <li data-role="fieldcontain">
+        <button id="add_email_button" data-theme="a">Login</button>
+      </li>
+    </ul>
+  </div>
+</div>
