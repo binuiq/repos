@@ -19,9 +19,9 @@
 
 //
 //  MainViewController.h
-//  photos_in_email
+//  PIE
 //
-//  Created by BB on 4/22/12.
+//  Created by Xin Xiang on 4/29/12.
 //  Copyright __MyCompanyName__ 2012. All rights reserved.
 //
 

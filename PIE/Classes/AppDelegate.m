@@ -19,9 +19,9 @@
 
 //
 //  AppDelegate.m
-//  photos_in_email
+//  PIE
 //
-//  Created by BB on 4/22/12.
+//  Created by Xin Xiang on 4/29/12.
 //  Copyright __MyCompanyName__ 2012. All rights reserved.
 //
 
@@ -66,7 +66,7 @@
     
     if (url && [url isKindOfClass:[NSURL class]]) {
         invokeString = [url absoluteString];
-		NSLog(@"photos_in_email launchOptions = %@", url);
+		NSLog(@"PIE launchOptions = %@", url);
     }    
     
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
@@ -115,7 +115,7 @@
 }
 
 // this happens while we are running ( in the background, or from within our own app )
-// only valid if photos_in_email-Info.plist specifies a protocol to handle
+// only valid if PIE-Info.plist specifies a protocol to handle
 - (BOOL) application:(UIApplication*)application handleOpenURL:(NSURL*)url 
 {
     if (!url) { 

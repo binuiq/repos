@@ -19,9 +19,9 @@
 
 //
 //  AppDelegate.h
-//  photos_in_email
+//  PIE
 //
-//  Created by BB on 4/22/12.
+//  Created by Xin Xiang on 4/29/12.
 //  Copyright __MyCompanyName__ 2012. All rights reserved.
 //
 
@@ -39,7 +39,7 @@
 }
 
 // invoke string is passed to your app on launch, this is only valid if you 
-// edit photos_in_email-Info.plist to add a protocol
+// edit PIE-Info.plist to add a protocol
 // a simple tutorial can be found here : 
 // http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
 
